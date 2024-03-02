@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'speedee';
+    src: url('./fonts/Speedee-Bold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'nova';
+    src: url('./fonts/Fontspring-DEMO-proximanova-medium.otf') format('truetype');
+  }
+
+* {
+  font-family: 'nova', sans-serif;
+}
+
+.link-0 {
+  --i: 0;
+}
+
+.link-1 {
+  --i: 1;
+}
+
+.link-2 {
+  --i: 2;
+}
+
+.link-3 {
+  --i: 3;
+}
+
+.link-4 {
+  --i: 4;
+}
+
+.navbar {
+  display: block;
+  transition: .3s ease;
+}
+
+.navbar a {
+  transition: .3 ease;
+  font-size: 1.1rem;
+  transform: translateY(-50px);
+  transition: .3s ease;
+  opacity: 0;
+}
+
+#check:checked~.navbar{
+  height: 17.7rem !important;
+  transform: translateY(0) !important;
+}
+
+#check:checked~.navbar a{
+  transform: translateY(0) !important;
+  transition-delay: calc(.15s * var(--i));
+  opacity: 1;
+}

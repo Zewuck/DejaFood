@@ -1,10 +1,11 @@
-import { Body } from "./components/Body";
-import './index.css'
+import { Navbar } from "./components/Navbar";
+import "./index.css";
+import './style.css'
 
 function App() {
     return (
         <>
-           <Body />
+            <Navbar />
         </>
     );
 }
