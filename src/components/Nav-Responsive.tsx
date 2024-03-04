@@ -11,7 +11,7 @@ export function NavResponsive() {
     return(
         <header
                         className="w-full bg-cake flex sm:flex md:flex lg:hidden xl:hidden 
-                    fixed top-0 left-0 px-5 justify-between items-center z-10"
+                    fixed top-0 left-0 px-5 justify-between items-center z-50"
                     >
                         <Logo/>
 

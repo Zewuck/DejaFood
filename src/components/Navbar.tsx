@@ -7,7 +7,7 @@ export function Navbar() {
 
     return (
         <>
-            <header>
+            <header className="flex w-full h-full z-50">
                 <NavResponsive/>
                 <Nav/>
             </header>

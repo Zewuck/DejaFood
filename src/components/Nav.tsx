@@ -5,7 +5,7 @@ export function Nav() {
         <nav
                     role="navigation"
                     aria-label="main-navigation"
-                    className="w-full justify-between gap-x-20 bg-cake flex flex-row items-stretch box-border fixed"
+                    className="w-full justify-between gap-x-20 bg-cake flex flex-row items-stretch box-border z-50 fixed"
                 >
                     
                     <div className="w-4/5 mx-auto  flex-row hidden sm:hidden md:hidden lg:flex xl:flex">
