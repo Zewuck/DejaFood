@@ -1,4 +1,5 @@
 import { Logo32 } from "./Logo"
+import Button from "./Button"
 
 export function Nav() {
     return (
@@ -35,9 +36,7 @@ export function Nav() {
                                 <div className="w-1/3">
                                     <div className="h-full flex justify-end items-center">
                                         <div>
-                                            <button className="font-normal px-5 py-3 rounded border hover:border-transparent text-cake hover:text-cake-200 bg-brown-200 hover:bg-brown active:bg-brown-200">
-                                                A tu Hogar
-                                            </button>
+                                            <Button contentButton='A tu Hogar'/>
                                         </div>
                                     </div>
                                 </div>

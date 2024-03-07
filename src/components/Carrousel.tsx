@@ -29,25 +29,25 @@ export function Carrousel() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const prevSlide = ():void => {
+    const prevSlide = (): void => {
         const isFirstSlide = currentIndex === 0;
         const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
         setCurrentIndex(newIndex);
     };
 
-    const nextSlide = ():void => {
+    const nextSlide = (): void => {
         const isLastSlide = currentIndex === slides.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
     };
 
-    const goToSlide = (slideIndex:number):void => {
+    const goToSlide = (slideIndex: number): void => {
         setCurrentIndex(slideIndex);
     };
 
     return (
         <>
-            <div className="max-w-[1400px] h-[780px] w-full m-auto py-8 px-4 relative group">
+            <div className="max-w-[1400px] h-[780px] w-full m-auto mb-3 py-2 px-4 relative group">
                 <div
                     style={{
                         backgroundImage: `url(${slides[currentIndex].url})`,

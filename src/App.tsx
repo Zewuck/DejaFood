@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./components/Navbar";
 import { MarginTop } from "./components/MarginTop";
-import { Carrousel } from "./components/Carrousel";
+import { Body } from "./components/Body";
 import "./index.css";
 import './style.css'
 
@@ -10,7 +10,7 @@ function App() {
         <>
             <Navbar />
             <MarginTop />
-            <Carrousel />
+            <Body />
         </>
     );
 }
