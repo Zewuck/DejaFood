@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import { useContext } from "react";
 import { InfoContext } from "../context/InfoContext";
@@ -16,6 +15,7 @@ const CardSecondRow = () => {
                                 img={image.image2}
                                 title="8KG En 2 Meses¡¡"
                                 ds="Se escucha increible pero es cierto, ¡Puedes obtener estos resultados"
+                                contentButton="Más Información"
                             />
                         </article>
                     </div>
@@ -25,6 +25,7 @@ const CardSecondRow = () => {
                                 img={image.image1}
                                 title="Hola cuarto Titulo"
                                 ds="cuarta descripcionm"
+                                contentButton="Más Información"
                             />
                         </article>
                     </div>

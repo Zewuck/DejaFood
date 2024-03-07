@@ -1,4 +1,4 @@
-import React, { createContext, ReactNode } from "react"
+import { createContext, ReactNode } from "react"
 import img1 from '../Images/img1.jpg'
 import img2 from '../Images/img2.jpg'
 

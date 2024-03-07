@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import img1 from "../Images/img1.jpg";
 import img2 from "../Images/img2.jpg";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
@@ -67,7 +67,7 @@ export function Carrousel() {
                     </div>
                 </div>
                 <div className="flex top-4 justify-center py-2">
-                    {slides.map((slide, slideIndex) => (
+                    {slides.map((_, slideIndex) => (
                         <div
                             key={slideIndex}
                             onClick={() => goToSlide(slideIndex)}
