@@ -8,6 +8,7 @@ export default {
                 'cake-200': '#f2d5c3',
                 brown: "#6b342f",
                 'brown-200': "#883d38",
+                body: "#fcfcfc",
             },
         },
     },

@@ -8,8 +8,8 @@ const Cards = () => {
 
     return (
         <>
-            <section className="justify-center w-full h-full px-[10%] lg:pt-2 ">
-                <div className="grid gap-x-1 lg:grid-cols-2 h-full w-full">
+            <section className="justify-center w-full h-full lg:px-[10%] md:pt-2">
+                <div className="grid gap-x-1 md:grid-cols-2 h-full w-full">
                     <div className="w-full h-full p-5">
                         <article className="flex">
                             <Card
